@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.example.android.recyclerview.HomeActivity">
+        <item
+            android:id="@+id/item1"
+            android:title="show in map"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/item2"
+            android:title="search"
+            android:showAsAction="never" />
+</menu>
